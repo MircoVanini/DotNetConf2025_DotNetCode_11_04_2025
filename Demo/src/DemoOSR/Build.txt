@@ -1,0 +1,5 @@
+dotnet publish DemoOSR.csproj --no-self-contained --framework net9.0 -r osx-x64 -p:PublishDir=./Deploy/osx-x64/publish -c Release
+
+export DOTNET_JitDisasmSummary=1
+export DOTNET_JitDisasmSummary=0
+export DOTNET_JitDisasm="<Main>$"

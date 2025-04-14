@@ -1,0 +1,1 @@
+dotnet run -c Release -f net8.0 --filter "*" --runtimes net8.0 net9.0 

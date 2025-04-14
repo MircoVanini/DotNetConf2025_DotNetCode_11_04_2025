@@ -1,0 +1,1 @@
+dotnet run -c Release -f net9.0 --filter "*" 
